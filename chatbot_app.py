@@ -408,8 +408,8 @@ class ChatApp:
     
     def setup_page(self):
         self.page.title = "Chatbot Application"
-        self.page.window_width = 800
-        self.page.window_height = 600
+        self.page.window_width = 900
+        self.page.window_height = 700
         self.page.padding = 0
         self.page.theme_mode = ft.ThemeMode.LIGHT
         self.page.bgcolor = ft.Colors.with_opacity(0.98, ft.Colors.WHITE)
@@ -417,14 +417,21 @@ class ChatApp:
             "SF Pro": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
         }
         self.page.theme = ft.Theme(font_family="SF Pro, Inter, Helvetica, Arial, sans-serif")
+        self.page.window_min_width = 450
+        self.page.window_min_height = 600
+        self.page.window_maximizable = True
+        self.page.window_resizable = True
+        self.page.scroll = "auto"
+        # Set adaptive to true for responsive layout
+        self.page.adaptive = True
     
     def build_ui(self):
-        # Create chat list
+        # Create chat list with improved padding and spacing
         self.chat_display = ft.ListView(
             expand=True,
             spacing=10,
             auto_scroll=True,
-            padding=20,
+            padding=ft.padding.only(left=20, right=20, bottom=10),
         )
         
         # Add welcome message
@@ -448,7 +455,7 @@ class ChatApp:
             visible=False
         )
         
-        # Create input field
+        # Create input field with improved styling
         self.chat_input = ft.TextField(
             hint_text="Type your message here...",
             border_radius=25,
@@ -458,12 +465,18 @@ class ChatApp:
             expand=True,
             on_submit=self.send_message,
             shift_enter=True,
+            text_size=15,
+            content_padding=ft.padding.only(left=20, right=20, top=14, bottom=14),
+            cursor_color=ft.Colors.BLUE,
+            focused_border_color=ft.Colors.BLUE,
         )
         
-        # Create send button
+        # Create send button with improved styling
         send_button = ft.IconButton(
             icon=ft.Icons.SEND_ROUNDED,
-            icon_color=ft.Colors.GREEN,
+            icon_color=ft.Colors.BLUE,
+            icon_size=22,
+            tooltip="Send message",
             on_click=self.send_message,
         )
         
@@ -474,11 +487,15 @@ class ChatApp:
             page=self.page
         )
         
-        # Create model settings button
+        # Create model settings button with improved styling
         model_button = ft.ElevatedButton(
             "Model Settings",
             icon=ft.Icons.SETTINGS,
             on_click=self._toggle_model_settings,
+            style=ft.ButtonStyle(
+                color=ft.Colors.WHITE,
+                bgcolor=ft.Colors.BLUE,
+            )
         )
         
         # Create sidebar toggle button
@@ -486,15 +503,16 @@ class ChatApp:
             icon=ft.Icons.MENU,
             icon_size=24,
             on_click=self.toggle_sidebar,
+            icon_color=ft.Colors.WHITE,
         )
         
-        # Create top bar - Replace SURFACE_VARIANT with BLUE_GREY_100
+        # Create top bar with improved styling
         top_bar = ft.Container(
             content=ft.Row(
                 [
                     sidebar_toggle,
                     ft.Container(width=10),  # Spacer
-                    ft.Text("Chatbot Application", size=20, weight="bold"),
+                    ft.Text("Chatbot Application", size=20, weight="bold", color=ft.Colors.WHITE),
                     # Replace Spacer with Container that expands
                     ft.Container(expand=True),
                     model_button,
@@ -502,11 +520,17 @@ class ChatApp:
                 spacing=10,
                 vertical_alignment=ft.CrossAxisAlignment.CENTER,
             ),
-            padding=10,
-            bgcolor=ft.Colors.BLUE_GREY_100,
+            padding=ft.padding.symmetric(horizontal=16, vertical=12),
+            bgcolor=ft.Colors.BLUE_700,
+            shadow=ft.BoxShadow(
+                spread_radius=0,
+                blur_radius=5,
+                color=ft.Colors.with_opacity(0.3, ft.Colors.BLACK),
+                offset=ft.Offset(0, 1),
+            ),
         )
         
-        # Create sidebar - Replace SURFACE_VARIANT with BLUE_GREY_50
+        # Create sidebar with improved styling
         self.sidebar = ft.Container(
             content=ft.Column(
                 [
@@ -528,19 +552,26 @@ class ChatApp:
             animate=ft.animation.Animation(300, "easeOut"),
         )
         
-        # Create input area - Replace SURFACE with WHITE
+        # Create input area with improved styling and fixed at bottom
         input_area = ft.Container(
             content=ft.Row(
                 [self.chat_input, send_button],
                 spacing=10,
                 vertical_alignment=ft.CrossAxisAlignment.CENTER,
             ),
-            padding=10,
+            padding=ft.padding.symmetric(horizontal=16, vertical=12),
             bgcolor=ft.Colors.WHITE,
+            border=ft.border.only(top=ft.border.BorderSide(1, ft.Colors.BLACK12)),
+            shadow=ft.BoxShadow(
+                spread_radius=0,
+                blur_radius=8,
+                color=ft.Colors.with_opacity(0.1, ft.Colors.BLACK),
+                offset=ft.Offset(0, -2),
+            ),
         )
         
-        # Assemble the UI
-        main_content = ft.Container(
+        # Center the main content
+        main_content_container = ft.Container(
             content=ft.Column(
                 [
                     top_bar,
@@ -557,18 +588,24 @@ class ChatApp:
             expand=True,
         )
         
-        # Create main layout with sidebar
+        # Wrap in a row for horizontal centering with max width
+        centered_content = ft.Row(
+            [
+                ft.Container(
+                    content=main_content_container,
+                    width=800,  # Set max width for the chat interface
+                    expand=True,  # But allow it to fill available space up to the max width
+                )
+            ],
+            expand=True,
+            alignment=ft.MainAxisAlignment.CENTER,  # Center horizontally
+        )
+        
+        # Create main layout with centered content
         self.page.add(
             ft.Stack([
-                ft.Row(
-                    [
-                        self.sidebar,
-                        ft.VerticalDivider(width=1, color=ft.Colors.OUTLINE),
-                        main_content,
-                    ],
-                    spacing=0,
-                    expand=True,
-                ),
+                centered_content,
+                # Settings panel overlay
                 ft.Row(
                     [
                         ft.Container(expand=True),  # Push panel to the right
@@ -577,7 +614,7 @@ class ChatApp:
                     expand=True,
                     vertical_alignment=ft.CrossAxisAlignment.START,
                 ),
-            ])
+            ], expand=True)
         )
         
     def toggle_sidebar(self, e):

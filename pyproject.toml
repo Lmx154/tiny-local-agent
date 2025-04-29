@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chatbot-app"
+version = "0.1.0"
+description = "A chatbot application with Flet interface and Ollama integration"
+requires-python = ">=3.8"
+dependencies = [
+  "requests==2.31.0",
+  "flet[all]",
+  "ollama"
+]
+
+[tool.setuptools]
+py-modules = ["chatbot_app", "llm_provider"]

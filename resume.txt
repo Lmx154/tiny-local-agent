@@ -1,0 +1,74 @@
+JOHN SMITH
+-----------
+Email: john.smith@email.com
+Phone: (555) 123-4567
+LinkedIn: linkedin.com/in/johnsmith
+Location: San Francisco, CA
+
+SUMMARY
+-------
+Experienced software engineer with 7+ years of expertise in full-stack development, specializing in Python and JavaScript frameworks. Proven track record of delivering scalable web applications and mentoring junior developers.
+
+SKILLS
+------
+Programming Languages: Python, JavaScript, TypeScript, SQL, HTML/CSS
+Frameworks/Libraries: Django, Flask, React, Node.js, Express, Vue.js
+Tools: Git, Docker, AWS, CI/CD, Jira, Agile methodologies
+Databases: PostgreSQL, MongoDB, MySQL
+Testing: Pytest, Jest, Selenium
+
+WORK EXPERIENCE
+--------------
+Senior Software Engineer
+TechCorp Inc. | San Francisco, CA
+January 2021 - Present
+
+- Led a team of 5 developers to redesign the company's flagship product, resulting in a 40% increase in user engagement
+- Implemented microservices architecture using Docker and Kubernetes, improving system reliability by 25%
+- Developed and maintained RESTful APIs using Django REST Framework, serving over 10,000 daily active users
+- Collaborated with product managers and designers to translate business requirements into technical specifications
+- Established code review practices and mentored junior developers, reducing bug reports by 30%
+
+Software Engineer
+DataSystems LLC | Oakland, CA
+March 2018 - December 2020
+
+- Designed and implemented a real-time data analytics dashboard using React and D3.js
+- Created and maintained ETL pipelines using Python, processing over 10GB of data daily
+- Optimized database queries, reducing API response times by 60%
+- Integrated third-party APIs for payment processing and user authentication
+- Contributed to open-source libraries and represented the company at tech conferences
+
+Junior Developer
+WebStart Solutions | Berkeley, CA
+June 2016 - February 2018
+
+- Developed and maintained client websites using JavaScript, HTML, and CSS
+- Built custom WordPress plugins to enhance site functionality
+- Assisted in database design and implementation for small business clients
+- Fixed bugs and implemented feature requests for existing web applications
+- Participated in daily stand-ups and sprint planning meetings
+
+EDUCATION
+---------
+B.S. Computer Science
+University of California, Berkeley
+2012 - 2016
+GPA: 3.8/4.0
+
+PROJECTS
+--------
+TaskMaster - Open-source project management tool built with Django and React
+CodeReviewer - AI-powered code review assistant using NLP to identify potential issues
+SmartBudget - Personal finance tracker with machine learning predictions for future spending
+
+CERTIFICATIONS
+-------------
+AWS Certified Solutions Architect
+Certified Scrum Master (CSM)
+MongoDB Certified Developer
+
+LANGUAGES
+---------
+English (Native)
+Spanish (Conversational)

@@ -1,0 +1,1028 @@
+{
+    "forms": [
+      {
+        "id": "careerApplicationForm",
+        "name": "",
+        "method": "get",
+        "action": "https://asuresoftware.bamboohr.com/careers/588?source=LinkedIn",
+        "fields": [
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "firstName",
+            "name": "firstName",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "First Name",
+            "autofillable": true
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "lastName",
+            "name": "lastName",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "Last Name",
+            "autofillable": true
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "email",
+            "name": "email",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "Email",
+            "autofillable": true
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "phone",
+            "name": "phone",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "Phone",
+            "autofillable": true
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "streetAddress",
+            "name": "streetAddress",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "Address",
+            "autofillable": true
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "city",
+            "name": "city",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "City",
+            "autofillable": true
+          },
+          {
+            "tagName": "select",
+            "type": "select-one",
+            "id": "careerApplicationForm_select_state_6",
+            "name": "state",
+            "placeholder": "",
+            "value": "",
+            "required": false,
+            "autocomplete": "",
+            "label": "State",
+            "autofillable": true
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "zip",
+            "name": "zip",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "ZIP",
+            "autofillable": true
+          },
+          {
+            "tagName": "select",
+            "type": "select-one",
+            "id": "careerApplicationForm_select_countryId_8",
+            "name": "countryId",
+            "placeholder": "",
+            "value": "1",
+            "required": false,
+            "autocomplete": "",
+            "label": "Country",
+            "autofillable": true
+          },
+          {
+            "tagName": "input",
+            "type": "file",
+            "id": "careerApplicationForm_input_10",
+            "name": "",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "file-input",
+            "autofillable": false
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "dateAvailable",
+            "name": "dateAvailable",
+            "placeholder": "mm/dd/yyyy",
+            "value": "",
+            "required": false,
+            "autocomplete": "",
+            "label": "Date Available *",
+            "autofillable": true
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "desiredPay",
+            "name": "desiredPay",
+            "placeholder": "",
+            "value": "",
+            "required": false,
+            "autocomplete": "",
+            "label": "Desired Pay",
+            "autofillable": true
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "websiteUrl",
+            "name": "websiteUrl",
+            "placeholder": "",
+            "value": "",
+            "required": false,
+            "autocomplete": "",
+            "label": "Website, Blog, or Portfolio",
+            "autofillable": true
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "linkedinUrl",
+            "name": "linkedinUrl",
+            "placeholder": "",
+            "value": "",
+            "required": false,
+            "autocomplete": "",
+            "label": "LinkedIn Profile URL",
+            "autofillable": true
+          },
+          {
+            "tagName": "select",
+            "type": "select-one",
+            "id": "careerApplicationForm_select_educationLevelId_16",
+            "name": "educationLevelId",
+            "placeholder": "",
+            "value": "",
+            "required": false,
+            "autocomplete": "",
+            "label": "Highest Education Obtained",
+            "autofillable": false
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "educationInstitutionName",
+            "name": "educationInstitutionName",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "College/University",
+            "autofillable": true
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "referredBy",
+            "name": "referredBy",
+            "placeholder": "",
+            "value": "",
+            "required": false,
+            "autocomplete": "",
+            "label": "Who referred you for this position?",
+            "autofillable": true
+          },
+          {
+            "tagName": "input",
+            "type": "radio",
+            "id": "customQuestions[2137]--yes",
+            "name": "customQuestions[2137]",
+            "placeholder": "",
+            "value": "yes",
+            "required": true,
+            "autocomplete": "",
+            "label": "Yes",
+            "autofillable": false
+          },
+          {
+            "tagName": "input",
+            "type": "radio",
+            "id": "customQuestions[2137]--no",
+            "name": "customQuestions[2137]",
+            "placeholder": "",
+            "value": "no",
+            "required": true,
+            "autocomplete": "",
+            "label": "No",
+            "autofillable": false
+          },
+          {
+            "tagName": "input",
+            "type": "radio",
+            "id": "customQuestions[2138]--yes",
+            "name": "customQuestions[2138]",
+            "placeholder": "",
+            "value": "yes",
+            "required": true,
+            "autocomplete": "",
+            "label": "Yes",
+            "autofillable": false
+          },
+          {
+            "tagName": "input",
+            "type": "radio",
+            "id": "customQuestions[2138]--no",
+            "name": "customQuestions[2138]",
+            "placeholder": "",
+            "value": "no",
+            "required": true,
+            "autocomplete": "",
+            "label": "No",
+            "autofillable": false
+          },
+          {
+            "tagName": "input",
+            "type": "radio",
+            "id": "customQuestions[2139]--yes",
+            "name": "customQuestions[2139]",
+            "placeholder": "",
+            "value": "yes",
+            "required": true,
+            "autocomplete": "",
+            "label": "Yes",
+            "autofillable": false
+          },
+          {
+            "tagName": "input",
+            "type": "radio",
+            "id": "customQuestions[2139]--no",
+            "name": "customQuestions[2139]",
+            "placeholder": "",
+            "value": "no",
+            "required": true,
+            "autocomplete": "",
+            "label": "No",
+            "autofillable": false
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "customQuestions[2140]",
+            "name": "customQuestions[2140]",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "Can you confirm your highest level of completed education?",
+            "autofillable": true
+          }
+        ]
+      },
+      {
+        "id": "virtual_form",
+        "name": "Dynamically Generated Fields",
+        "fields": [
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "firstName",
+            "name": "firstName",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "First Name",
+            "autofillable": true,
+            "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#firstName",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--firstName"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "lastName",
+            "name": "lastName",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "Last Name",
+            "autofillable": true,
+            "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#lastName",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--lastName"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "email",
+            "name": "email",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "Email",
+            "autofillable": true,
+            "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#email",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--email"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "phone",
+            "name": "phone",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "Phone",
+            "autofillable": true,
+            "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#phone",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--phone"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "streetAddress",
+            "name": "streetAddress",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "Address",
+            "autofillable": true,
+            "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#streetAddress",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--streetAddress"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "city",
+            "name": "city",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "City",
+            "autofillable": true,
+            "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#city",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--city"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "zip",
+            "name": "zip",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "ZIP",
+            "autofillable": true,
+            "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#zip",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--zip"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "file",
+            "id": "virtual_form_input_7",
+            "name": "",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "file-input",
+            "autofillable": false,
+            "path": "fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fabric-1gxw3vm-root.MuiBox-root > div.fabric-1buwp1x-root > input.fabric-bc1bde-input",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fabric-1buwp1x-root"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "dateAvailable",
+            "name": "dateAvailable",
+            "placeholder": "mm/dd/yyyy",
+            "value": "",
+            "required": false,
+            "autocomplete": "",
+            "label": "Date Available *",
+            "autofillable": true,
+            "path": "div.fabric-5qovnk-root > div.fabric-1jew8hx-root.fabInternal-DatePickerInput > div.MuiFormControl-root.fabric-alku5b-root > div.fabric-t2vye1-root.MuiBox-root > div.MuiInputBase-root.fabric-utlvj9-root-width-size-denseAdornment > input#dateAvailable",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "MuiInputBase-root fabric-utlvj9-root-width-size-denseAdornment MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-49xwzj"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "educationInstitutionName",
+            "name": "educationInstitutionName",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "College/University",
+            "autofillable": true,
+            "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#educationInstitutionName",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--educationInstitutionName"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "radio",
+            "id": "customQuestions[2137]--yes",
+            "name": "customQuestions[2137]",
+            "placeholder": "",
+            "value": "yes",
+            "required": true,
+            "autocomplete": "",
+            "label": "Yes",
+            "autofillable": false,
+            "path": "fieldset.CandidateField.CandidateField--customQuestions[2137] > div.fab-InputWrapper.CandidateField__inputWrapper > div.fabric-5qovnk-root.MuiBox-root > div.fabric-1icfu4m-root.MuiBox-root > div.fab-Radio > input#customQuestions[2137]--yes",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-Radio"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "radio",
+            "id": "customQuestions[2137]--no",
+            "name": "customQuestions[2137]",
+            "placeholder": "",
+            "value": "no",
+            "required": true,
+            "autocomplete": "",
+            "label": "No",
+            "autofillable": false,
+            "path": "div.fab-FormRow.CandidateForm__row > fieldset.CandidateField.CandidateField--customQuestions[2137] > div.fab-InputWrapper.CandidateField__inputWrapper > div.fabric-5qovnk-root.MuiBox-root > div.fab-Radio > input#customQuestions[2137]--no",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-Radio"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "radio",
+            "id": "customQuestions[2138]--yes",
+            "name": "customQuestions[2138]",
+            "placeholder": "",
+            "value": "yes",
+            "required": true,
+            "autocomplete": "",
+            "label": "Yes",
+            "autofillable": false,
+            "path": "fieldset.CandidateField.CandidateField--customQuestions[2138] > div.fab-InputWrapper.CandidateField__inputWrapper > div.fabric-5qovnk-root.MuiBox-root > div.fabric-1icfu4m-root.MuiBox-root > div.fab-Radio > input#customQuestions[2138]--yes",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-Radio"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "radio",
+            "id": "customQuestions[2138]--no",
+            "name": "customQuestions[2138]",
+            "placeholder": "",
+            "value": "no",
+            "required": true,
+            "autocomplete": "",
+            "label": "No",
+            "autofillable": false,
+            "path": "div.fab-FormRow.CandidateForm__row > fieldset.CandidateField.CandidateField--customQuestions[2138] > div.fab-InputWrapper.CandidateField__inputWrapper > div.fabric-5qovnk-root.MuiBox-root > div.fab-Radio > input#customQuestions[2138]--no",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-Radio"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "radio",
+            "id": "customQuestions[2139]--yes",
+            "name": "customQuestions[2139]",
+            "placeholder": "",
+            "value": "yes",
+            "required": true,
+            "autocomplete": "",
+            "label": "Yes",
+            "autofillable": false,
+            "path": "fieldset.CandidateField.CandidateField--customQuestions[2139] > div.fab-InputWrapper.CandidateField__inputWrapper > div.fabric-5qovnk-root.MuiBox-root > div.fabric-1icfu4m-root.MuiBox-root > div.fab-Radio > input#customQuestions[2139]--yes",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-Radio"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "radio",
+            "id": "customQuestions[2139]--no",
+            "name": "customQuestions[2139]",
+            "placeholder": "",
+            "value": "no",
+            "required": true,
+            "autocomplete": "",
+            "label": "No",
+            "autofillable": false,
+            "path": "div.fab-FormRow.CandidateForm__row > fieldset.CandidateField.CandidateField--customQuestions[2139] > div.fab-InputWrapper.CandidateField__inputWrapper > div.fabric-5qovnk-root.MuiBox-root > div.fab-Radio > input#customQuestions[2139]--no",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-Radio"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "customQuestions[2140]",
+            "name": "customQuestions[2140]",
+            "placeholder": "",
+            "value": "",
+            "required": true,
+            "autocomplete": "",
+            "label": "Can you confirm your highest level of completed education?",
+            "autofillable": true,
+            "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#customQuestions[2140]",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--customQuestions[2140] CandidateField__inputWrapper--cqShort"
+            }
+          },
+          {
+            "tagName": "input",
+            "type": "text",
+            "id": "FabricTextField-5",
+            "name": "",
+            "placeholder": "",
+            "value": "https://asuresoftware.bamboohr.com/careers/588",
+            "required": false,
+            "autocomplete": "",
+            "label": "Link to This Job",
+            "autofillable": true,
+            "path": "div.jss-g9 > section.fabric-k5i39i-root > div.MuiFormControl-root.MuiFormControl-fullWidth > div.fabric-t2vye1-root.MuiBox-root > div.MuiInputBase-root.fabric-1qzslw0-root-width-size > input#FabricTextField-5",
+            "parentElement": {
+              "tagName": "DIV",
+              "id": "",
+              "className": "MuiInputBase-root fabric-1qzslw0-root-width-size MuiInputBase-colorPrimary MuiInputBase-formControl Mui-readOnly MuiInputBase-readOnly css-49xwzj"
+            }
+          }
+        ]
+      }
+    ],
+    "autofillableFields": [
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "firstName",
+        "name": "firstName",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "First Name",
+        "autofillable": true
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "lastName",
+        "name": "lastName",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "Last Name",
+        "autofillable": true
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "email",
+        "name": "email",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "Email",
+        "autofillable": true
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "phone",
+        "name": "phone",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "Phone",
+        "autofillable": true
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "streetAddress",
+        "name": "streetAddress",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "Address",
+        "autofillable": true
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "city",
+        "name": "city",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "City",
+        "autofillable": true
+      },
+      {
+        "tagName": "select",
+        "type": "select-one",
+        "id": "careerApplicationForm_select_state_6",
+        "name": "state",
+        "placeholder": "",
+        "value": "",
+        "required": false,
+        "autocomplete": "",
+        "label": "State",
+        "autofillable": true
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "zip",
+        "name": "zip",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "ZIP",
+        "autofillable": true
+      },
+      {
+        "tagName": "select",
+        "type": "select-one",
+        "id": "careerApplicationForm_select_countryId_8",
+        "name": "countryId",
+        "placeholder": "",
+        "value": "1",
+        "required": false,
+        "autocomplete": "",
+        "label": "Country",
+        "autofillable": true
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "dateAvailable",
+        "name": "dateAvailable",
+        "placeholder": "mm/dd/yyyy",
+        "value": "",
+        "required": false,
+        "autocomplete": "",
+        "label": "Date Available *",
+        "autofillable": true
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "desiredPay",
+        "name": "desiredPay",
+        "placeholder": "",
+        "value": "",
+        "required": false,
+        "autocomplete": "",
+        "label": "Desired Pay",
+        "autofillable": true
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "websiteUrl",
+        "name": "websiteUrl",
+        "placeholder": "",
+        "value": "",
+        "required": false,
+        "autocomplete": "",
+        "label": "Website, Blog, or Portfolio",
+        "autofillable": true
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "linkedinUrl",
+        "name": "linkedinUrl",
+        "placeholder": "",
+        "value": "",
+        "required": false,
+        "autocomplete": "",
+        "label": "LinkedIn Profile URL",
+        "autofillable": true
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "educationInstitutionName",
+        "name": "educationInstitutionName",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "College/University",
+        "autofillable": true
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "referredBy",
+        "name": "referredBy",
+        "placeholder": "",
+        "value": "",
+        "required": false,
+        "autocomplete": "",
+        "label": "Who referred you for this position?",
+        "autofillable": true
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "customQuestions[2140]",
+        "name": "customQuestions[2140]",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "Can you confirm your highest level of completed education?",
+        "autofillable": true
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "firstName",
+        "name": "firstName",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "First Name",
+        "autofillable": true,
+        "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#firstName",
+        "parentElement": {
+          "tagName": "DIV",
+          "id": "",
+          "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--firstName"
+        }
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "lastName",
+        "name": "lastName",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "Last Name",
+        "autofillable": true,
+        "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#lastName",
+        "parentElement": {
+          "tagName": "DIV",
+          "id": "",
+          "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--lastName"
+        }
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "email",
+        "name": "email",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "Email",
+        "autofillable": true,
+        "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#email",
+        "parentElement": {
+          "tagName": "DIV",
+          "id": "",
+          "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--email"
+        }
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "phone",
+        "name": "phone",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "Phone",
+        "autofillable": true,
+        "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#phone",
+        "parentElement": {
+          "tagName": "DIV",
+          "id": "",
+          "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--phone"
+        }
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "streetAddress",
+        "name": "streetAddress",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "Address",
+        "autofillable": true,
+        "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#streetAddress",
+        "parentElement": {
+          "tagName": "DIV",
+          "id": "",
+          "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--streetAddress"
+        }
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "city",
+        "name": "city",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "City",
+        "autofillable": true,
+        "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#city",
+        "parentElement": {
+          "tagName": "DIV",
+          "id": "",
+          "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--city"
+        }
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "zip",
+        "name": "zip",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "ZIP",
+        "autofillable": true,
+        "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#zip",
+        "parentElement": {
+          "tagName": "DIV",
+          "id": "",
+          "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--zip"
+        }
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "dateAvailable",
+        "name": "dateAvailable",
+        "placeholder": "mm/dd/yyyy",
+        "value": "",
+        "required": false,
+        "autocomplete": "",
+        "label": "Date Available *",
+        "autofillable": true,
+        "path": "div.fabric-5qovnk-root > div.fabric-1jew8hx-root.fabInternal-DatePickerInput > div.MuiFormControl-root.fabric-alku5b-root > div.fabric-t2vye1-root.MuiBox-root > div.MuiInputBase-root.fabric-utlvj9-root-width-size-denseAdornment > input#dateAvailable",
+        "parentElement": {
+          "tagName": "DIV",
+          "id": "",
+          "className": "MuiInputBase-root fabric-utlvj9-root-width-size-denseAdornment MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-49xwzj"
+        }
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "educationInstitutionName",
+        "name": "educationInstitutionName",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "College/University",
+        "autofillable": true,
+        "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#educationInstitutionName",
+        "parentElement": {
+          "tagName": "DIV",
+          "id": "",
+          "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--educationInstitutionName"
+        }
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "customQuestions[2140]",
+        "name": "customQuestions[2140]",
+        "placeholder": "",
+        "value": "",
+        "required": true,
+        "autocomplete": "",
+        "label": "Can you confirm your highest level of completed education?",
+        "autofillable": true,
+        "path": "form#careerApplicationForm > fieldset.fab-FormSection.CandidateForm__section > div.fab-FormRow.CandidateForm__row > div.fab-FormColumn.CandidateField > div.fab-InputWrapper.CandidateField__inputWrapper > input#customQuestions[2140]",
+        "parentElement": {
+          "tagName": "DIV",
+          "id": "",
+          "className": "fab-InputWrapper CandidateField__inputWrapper CandidateField__inputWrapper--customQuestions[2140] CandidateField__inputWrapper--cqShort"
+        }
+      },
+      {
+        "tagName": "input",
+        "type": "text",
+        "id": "FabricTextField-5",
+        "name": "",
+        "placeholder": "",
+        "value": "https://asuresoftware.bamboohr.com/careers/588",
+        "required": false,
+        "autocomplete": "",
+        "label": "Link to This Job",
+        "autofillable": true,
+        "path": "div.jss-g9 > section.fabric-k5i39i-root > div.MuiFormControl-root.MuiFormControl-fullWidth > div.fabric-t2vye1-root.MuiBox-root > div.MuiInputBase-root.fabric-1qzslw0-root-width-size > input#FabricTextField-5",
+        "parentElement": {
+          "tagName": "DIV",
+          "id": "",
+          "className": "MuiInputBase-root fabric-1qzslw0-root-width-size MuiInputBase-colorPrimary MuiInputBase-formControl Mui-readOnly MuiInputBase-readOnly css-49xwzj"
+        }
+      }
+    ],
+    "pageAnalysis": {
+      "totalForms": 1,
+      "totalFields": 44,
+      "autofillableFieldsCount": 27,
+      "requiredFieldsCount": 32
+    }
+  }
